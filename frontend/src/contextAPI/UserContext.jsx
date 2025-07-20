@@ -5,7 +5,7 @@ import React, { createContext, useEffect, useState } from 'react';
 export const userdataContext = createContext();
 
 function UserContext({ children }) {
-  const serverurl = "http://localhost:8000";
+  const serverurl = "https://virtual-assistant-7txq.onrender.com";
   const [userdata, setuserdata] = useState(null);
    const [frontendimg, setfrontendimg] = useState(null);
     const [backendimg, setbackendimg] = useState(null);
