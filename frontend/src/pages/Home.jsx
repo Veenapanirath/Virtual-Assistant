@@ -1,6 +1,6 @@
 import React from 'react'
 import { useContext, useEffect, useRef, useState } from 'react'
-import { userdataContext } from '../contextAPI/userContext'
+import { userdataContext } from '../contextAPI/UserContext'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
