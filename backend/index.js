@@ -13,9 +13,13 @@ import geminiresponse from "./gemini.js";
 
 const app = express();
 
+
+// In your main app.js or server.js file
 app.use(cors({
-    origin: "https://virtual-assistant-1-tml7.onrender.com",
-    credentials: true
+    origin: ["https://virtual-assistant-1-tml7.onrender.com"], // Add your frontend URLs
+    credentials: true, // Allow cookies to be sent
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'x-auth-token']
 }));
 
 const port = process.env.PORT || 5000;
