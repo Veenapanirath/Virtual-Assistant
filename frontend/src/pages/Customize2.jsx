@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
-import { userdataContext } from '../contextAPI/userContext';
+import { userdataContext } from '../contextAPI/UserContext';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { FaArrowLeft } from "react-icons/fa";
