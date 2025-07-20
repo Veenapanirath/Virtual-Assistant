@@ -4,7 +4,7 @@ import SignUp from './pages/signup';
 import Signin from './pages/signin';
 import Customize from './pages/Customize';
 import Home from './pages/Home';
-import { userdataContext } from './contextAPI/userContext';
+import { userdataContext } from './contextAPI/UserContext';
 import Customize2 from './pages/Customize2';
 
 const App = () => {
