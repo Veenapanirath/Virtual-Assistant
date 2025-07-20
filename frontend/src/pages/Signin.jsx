@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useContext } from 'react';
 import { IoIosEye, IoIosEyeOff } from "react-icons/io";
 import { useNavigate } from 'react-router-dom'
-import { userdataContext } from '../contextAPI/userContext';
+import { userdataContext } from '../contextAPI/UserContext';
 import axios from "axios"
 import BG from "../assets/authBg.png"
 
